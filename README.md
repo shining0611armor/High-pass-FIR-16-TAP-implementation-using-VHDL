@@ -4,6 +4,8 @@
 
 This project implements a 16-tap High Pass FIR filter (and its transposed form) using VHDL. First, we design the filter with Matlab.
 
+![image](https://github.com/user-attachments/assets/76f462a9-f5ef-4c1e-8991-a889306366d0)
+
 ## Table of Contents
 - [Direct Form of FIR Filter Implementation](#direct-form-of-fir-filter-implementation)
   - [Theoretical Filter Designing](#theoretical-filter-designing)
@@ -26,6 +28,10 @@ The VHDL implementation uses 8-bit input data and produces a 22-bit output. Due 
 ### Empirical Results
 The empirical results, saved in `output.txt`, match the theoretical design, demonstrating effective high-frequency filtering as shown in the FFT analysis.
 
+
+![image](https://github.com/user-attachments/assets/2ce95550-5a82-4d8d-aa05-4dc10b068695)
+
+
 ## Transpose Form of FIR Filter
 
 ### Theoretical Filter Designing
@@ -39,6 +45,7 @@ The empirical results for the transposed form, analyzed using MATLAB, show a sim
 
 ## Maximum Frequency Comparison between Two Methods
 The maximum frequency for the transposed FIR filter implementation is 327.04 MHz, indicating a higher speed compared to the direct form. This demonstrates the efficiency gain by using the transposed method for FIR filter implementation.
+![image](https://github.com/user-attachments/assets/ab6736c0-e613-4a23-9296-7db9efd3e095)
 
 ## 👩‍🏫 About the Instructor
 
